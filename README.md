@@ -53,7 +53,7 @@ You can check the books in the book list and remove your finished books if you w
 
 ## 🚀 Live Demo <a name="live-demo"></a>
 
-- [Live Demo Link](https://frederick-ye.github.io/Awesome-Books-MV/)
+- [Live Demo Link](https://frederick-ye.github.io/AwesomeBooksES6/#addBook)
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
