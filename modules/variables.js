@@ -9,7 +9,7 @@ const contactNav = document.querySelector('.contact-nav');
 const displaySection = document.querySelector('.display-books');
 const addBookSection = document.querySelector('.add-book');
 const contactSection = document.querySelector('.contact-section');
-
+const dateTime = document.querySelector('.date');
 export {
   bookList,
   bookTemplate,
@@ -22,4 +22,5 @@ export {
   displaySection,
   addBookSection,
   contactSection,
+  dateTime,
 };

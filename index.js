@@ -1,3 +1,4 @@
+import { DateTime } from 'https://cdn.skypack.dev/luxon';
 import BookCollection from './modules/bookcollection.js';
 import {
   bookList,
@@ -10,8 +11,11 @@ import {
   displaySection,
   addBookSection,
   contactSection,
+  dateTime,
 } from './modules/variables.js';
 
+const currentDate = DateTime.now().toLocaleString(DateTime.DATETIME_MED);
+dateTime.textContent = `${currentDate}`;
 const bookCollection = new BookCollection();
 
 bookCollection.books.forEach((book) => bookCollection.displayBook(book));

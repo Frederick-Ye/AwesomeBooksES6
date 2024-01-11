@@ -10,10 +10,15 @@
   "author": "",
   "license": "ISC",
   "devDependencies": {
+    "@types/luxon": "^3.4.0",
     "babel-eslint": "^10.1.0",
     "eslint": "^7.32.0",
     "eslint-config-airbnb-base": "^14.2.1",
     "eslint-plugin-import": "^2.29.1",
     "hint": "^7.1.10"
+  },
+  "dependencies": {
+    "lunox": "^1.7.1",
+    "luxon": "^3.4.4"
   }
 }
