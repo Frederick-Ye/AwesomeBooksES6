@@ -1,3 +1,4 @@
+// eslint-disable-next-line import/no-unresolved
 import { DateTime } from 'https://cdn.skypack.dev/luxon';
 import BookCollection from './modules/bookcollection.js';
 import {
