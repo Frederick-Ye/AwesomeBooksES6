@@ -21,5 +21,5 @@ export {
   contactNav,
   displaySection,
   addBookSection,
-  contactSection
+  contactSection,
 };

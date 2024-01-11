@@ -1,7 +1,6 @@
-import BookCollection from "./modules/bookcollection.js";
+import BookCollection from './modules/bookcollection.js';
 import {
   bookList,
-  bookTemplate,
   bookForm,
   titleInput,
   authorInput,
@@ -10,7 +9,7 @@ import {
   contactNav,
   displaySection,
   addBookSection,
-  contactSection
+  contactSection,
 } from './modules/variables.js';
 
 const bookCollection = new BookCollection();

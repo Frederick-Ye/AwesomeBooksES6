@@ -1,3 +1,5 @@
+import { bookTemplate, bookList,} from "./variables";
+
 class BookCollection {
   constructor() {
     this.books = this.loadBooks();
@@ -15,6 +17,7 @@ class BookCollection {
   }
 
   deleteBook(bookId) {
+    // eslint-disable no-alert
     const confirmed = window.confirm('Are you sure you want to remove this book?');
     if (!confirmed) {
       return;
@@ -22,7 +25,7 @@ class BookCollection {
 
     this.books = this.books.filter((book) => book.id !== bookId);
     this.saveBooks();
-
+    // eslint-disable no-alert
     window.alert('Book removed!');
   }
 
