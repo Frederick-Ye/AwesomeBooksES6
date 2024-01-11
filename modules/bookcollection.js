@@ -1,4 +1,4 @@
-import { bookTemplate, bookList,} from "./variables";
+import { bookTemplate, bookList } from './variables.js';
 
 class BookCollection {
   constructor() {
@@ -16,8 +16,8 @@ class BookCollection {
     localStorage.setItem('Books', JSON.stringify(this.books));
   }
 
+  // eslint-disable no-alert
   deleteBook(bookId) {
-    // eslint-disable no-alert
     const confirmed = window.confirm('Are you sure you want to remove this book?');
     if (!confirmed) {
       return;
@@ -25,7 +25,6 @@ class BookCollection {
 
     this.books = this.books.filter((book) => book.id !== bookId);
     this.saveBooks();
-    // eslint-disable no-alert
     window.alert('Book removed!');
   }
 
